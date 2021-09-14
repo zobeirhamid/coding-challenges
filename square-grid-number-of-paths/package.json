@@ -1,0 +1,27 @@
+{
+  "name": "square-grid-number-of-paths",
+  "version": "1.0.0",
+  "description": "Square Grid Number of Paths",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "jest",
+    "tsc": "tsc",
+    "build": "rm -rf build && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zobeirhamid/coding-challenges/spellbrush"
+  },
+  "author": "Zobeir Hamid",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "@types/jest": "^27.0.1",
+    "babel-jest": "^27.1.1",
+    "jest": "^27.1.1",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.2"
+  }
+}
