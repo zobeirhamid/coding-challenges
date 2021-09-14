@@ -23,3 +23,15 @@ export default function numberOfPaths(n: number): number {
 
   return paths[n][n];
 }
+
+export function binomialCoefficientMethod(n: number): number {
+  function factorial(a: number) {
+    let result = 1;
+    for (let i = 1; i < a + 1; i++) {
+      result *= i;
+    }
+    return result;
+  }
+
+  return factorial(n * 2) / (factorial(n) * factorial(n));
+}
